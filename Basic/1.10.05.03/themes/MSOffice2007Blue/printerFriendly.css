@@ -1,0 +1,271 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000;
+	width: 1000px;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+
+/*  Images 
+---------------------------------------------------------------*/
+img {
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.imgfloatleft {
+	float: left;
+	border-right: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+}
+
+.imgfloatright {
+	float: right;
+	border-left: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+}
+
+/*  H1 H2 H3
+---------------------------------------------------------------*/
+h1 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h2 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+h3 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #2d5768;
+	margin: 0px;
+}
+
+
+/*  Customize and Order Buttons
+---------------------------------------------------------------*/
+input.button {
+	border: 1px solid #ddd;
+	background: #f9f9f9;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+	padding: 2px 10px !important;
+	padding: 2px 0px;
+	margin: 2px;
+}
+
+input.button:hover, input.button:sfhover { 
+	border: 1px solid #3da6b8; 
+	background: #e7eef0;
+}
+
+input.customizeButton {
+	background: url('images/customizeButton.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	border: 0px;
+}
+
+input.customizeButton:hover { 
+      background-position:0% -32px;
+}
+
+input.customizeButtonGBG {
+	background: url('images/customizeButtonGBG.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	border: 0px;
+}
+
+input.customizeButtonGBG:hover { 
+      background-position:0% -32px;
+}
+
+input.continueButton {
+	background: url('images/continueButton.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	border: 0px;
+}
+
+input.continueButton:hover { 
+      background-position:0% -32px;
+}
+
+input.checkoutButton {
+	background: url('images/checkoutButton.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	border: 0px;
+}
+
+input.checkoutButton:hover { 
+      background-position:0% -32px;
+}
+
+input.updateButton {
+	background: url('images/updateButton.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	border: 0px;
+}
+
+input.updateButton:hover { 
+      background-position:0% -32px;
+}
+
+input.saveOrderButton {
+	background: url('images/saveOrderButton.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	border: 0px;
+}
+
+input.saveOrderButton:hover { 
+      background-position:0% -32px;
+}
+
+a.saveOrderLink {
+	background: url('images/saveOrderButton.png') no-repeat left top;
+	width: 100px;
+	height: 31px;
+	outline: none;
+	display: block;
+	border: 0px;
+}
+
+a.saveOrderLink:hover { 
+      background-position:0% -32px;
+}
+
+textarea, select {
+	font: normal 11px Lucida Sans Unicode,Lucida Sans,Tahoma,Helvetica,Arial;
+	border-color: #000; 
+	color: #000;
+	background: #f9f9f9;
+}
+  
+input {
+  text-indent: 2px; 
+}
+
+.textarea,
+.searchinput {
+	border: 1px solid #FFF;
+	color: #000;
+	background: #f9f9f9;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align: middle;
+ }
+
+
+/*  Row Styles
+---------------------------------------------------------------*/
+.contentBox {
+	width: 100%;
+	border: 1px solid #353535;
+	text-align: left;
+}
+
+.redRow {
+	background: #d25664;
+	color: #fff;
+	padding-left: 3px;
+}
+
+.greenRow {
+	background: #7dd256;
+	color: #000;
+	padding-left: 3px;
+}
+
+.yellowRow {
+	background: #eaeb7a;
+	color: #000;
+	padding-left: 3px;
+}
+
+.title1 {
+	height: 20px;
+	color: #000;
+	font-weight: bold;
+	padding-left: 5px;
+	border-bottom: 1px solid #353535;
+}
+
+.title2 {
+	color: #000;
+	padding-left: 3px;
+}
+
+.row1 {
+	color: #000;
+	padding:2px 3px 2px 3px;
+	white-space: nowrap;
+}
+
+.row2 {
+	color: #000;
+	padding:2px 3px 2px 3px;
+	white-space: nowrap;
+}
+
+.customizeOptionsWidth { width: 850px; }
+
+.customizePartRow {
+	color: #000;
+	padding:2px 3px 2px 3px;
+	white-space: nowrap;
+	width: 400px;
+}
+
+.customizePartRowSelected {
+	color: #000;
+	padding:2px 3px 2px 3px;
+	white-space: nowrap;
+	width: 400px;
+}
+
+.full { 
+	width: 100%;
+}
+
+.half { 
+	width: 50%;
+}
+
+/*  Alignment Styles
+---------------------------------------------------------------*/
+.clear { clear: both; }
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.displayBlock { display: block; }
+.displayInline { display: inline; }

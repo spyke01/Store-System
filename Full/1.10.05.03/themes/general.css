@@ -1,0 +1,115 @@
+/*  Alignment Styles
+---------------------------------------------------------------*/
+.clear { clear: both; }
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.displayBlock { display: block; }
+.displayInline { display: inline; }
+.cursorPointer { cursor: pointer; }
+.noWrap { white-space: nowrap; }
+.boldFont { font-weight: bold; }
+
+/*  Margins Styles
+---------------------------------------------------------------*/
+.marginT5px { margin-top: 5px; }
+.marginR5px { margin-right: 5px; }
+.marginB5px { margin-bottom: 5px; }
+.marginL5px { margin-left: 5px; }
+
+.paddingT5px { padding-top: 5px; }
+.paddingR5px { padding-right: 5px; }
+.paddingB5px { padding-bottom: 5px; }
+.paddingL5px { padding-left: 5px; }
+
+/*  Validation Styles
+---------------------------------------------------------------*/
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+
+.validation-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #FF3300;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
+
+/*  Date Chooser Styles
+---------------------------------------------------------------*/
+.select-free {
+	 position:absolute;
+	 z-index:10;
+	 cursor:pointer;
+	 overflow:hidden;
+	 width:33em;
+}
+
+.select-free iframe {
+	 display:none;
+	 display/**/:block;
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 z-index:-1;
+	 filter:mask();
+	 width:3000px;
+	 height:3000px
+}
+
+.dateChooser td {
+    color: #000;
+    cursor:default;
+    text-align:center;
+}
+
+.dateChooser td.dateChooserActive:hover {
+    color:white;
+    background:#0A246A;
+}
+
+.dateChooser td.dateChooserActiveToday {
+    border: 1px solid red;
+}
+
+.dateChooser th {
+    background: #aaa;
+    color: white;
+    width: 18px;
+    border: none;
+}
+
+.dateChooser option, .dateChooser select {
+    font-size:10px;
+}
+
+.dateChooser {
+    border: 2px outset #aaa;
+    background: white;
+    padding: 1px;
+}
+
+.dateChooser table {
+    width:160px;
+}
